@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+line-height: 1;
+}
+
+.jumbotron {
+background-color: lightslategray;
+}
+
+h1,h2 {
+text-align: center;
+}
+
+#currentDay{
+text-align: center;
+}
+
+.savedBtn {
+box-sizing: 30px;
+background-color: darkgreen;
+}
+
+.saveBtn:hover {
+  background-color: yellow;
+}
+
+.container{ 
+text-align: center;
+border-radius: 30px;
+}
+
+textarea{
+background: transparent;
+border: none;
+resize: none;
+color: #000000;
+border-left: 1px solid black;
+padding: 20px;
+}
+
+.hours {
+background-color: rgb(20, 197, 220);
+display: block;
+margin-bottom: 20px;
+}
+
+.timeslotContainer {
+  text-align: center;
+  left: 50px;
+  margin-bottom: 50px;
+}
+
+.timeslots {
+  text-align: left; 
+}
+
+.past {
+background-color: #6be652;
+color: gray;
+width: 82%;  
+}
+
+.present {
+background-color: #253325;
+color: lightsteelblue;
+width: 82%;  
+}
+
+.future {
+background-color: #eec963;
+color: white;
+width: 82%;  
+}
+
+footer{
+text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+      text-align: center;
+      left: 50px;
+      width: 80px;
+    }
+
+    .timeSlots {
+      text-align: center;
+      width: 50px;
+      margin-right: -200px;
+    }
+
+    #saveBtn {
+      float: right;
+      height: 65px;
+      width: 65px;
+    }
+
+    .hours {
+      margin-left: -80px;
+      margin-top: 50px;
+    }
+}
